@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import Message from './components/Message';
 import logo from './logo.svg';
 import './App.css';
-import Message from './components/Message';
 
 function App() {
   const [data, setData] = useState({}); 
