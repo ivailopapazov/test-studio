@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Message from './components/Message';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>{data.name}</h1>
         <h2>{data.id}</h2>
+        <Message text="Hello Wolrd" />
         <a
           className="App-link"
           href="https://reactjs.org"
